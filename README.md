@@ -5,8 +5,8 @@ Clone repo and create a virtual environment
 
 $ git clone https://github.com/bhosxrucel/Chatbot.git
 $ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ python -m venv venv
+$ venv\Scripts\activate
 
 Install dependencies
 $ (venv) pip install Flask torch torchvision nltk
